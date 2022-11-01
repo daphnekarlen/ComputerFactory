@@ -9,7 +9,7 @@ public class ComputerFactory {
     boolean touchscreen;
 
 
-    //constructor method
+    //constructor method!
   public ComputerFactory(char cfSize, int cfRed, int cfGreen, int cfBlue, String cfShape, String cfPattern, boolean cfTouchscreen){
       size=cfSize;
       red=cfRed;
