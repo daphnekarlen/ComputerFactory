@@ -5,21 +5,24 @@ public class ComputerFactory {
     public int green;
     public int blue;
     public String shape;
+    public String pattern;
 
 
     //constructor method
-  public ComputerFactory(char cfSize, int cfRed, int cfGreen, int cfBlue, String cfShape){
+  public ComputerFactory(char cfSize, int cfRed, int cfGreen, int cfBlue, String cfShape, String cfPattern){
       size=cfSize;
       red=cfRed;
       green=cfGreen;
       blue=cfBlue;
       shape=cfShape;
+      pattern=cfPattern;
 
   }
 
   public void printInfo(){
 System.out.println("The computer is size"+size);
-System.out.println("The computer is a"+shape);
+System.out.println("The computer is a " +shape);
+System.out.println("The computer has design "+pattern);
 
       }
 
