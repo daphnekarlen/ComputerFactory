@@ -6,7 +6,7 @@ public class ComputerFactory {
     public int blue;
     public String shape;
     public String pattern;
-    boolean touchscreen;
+    public boolean touchscreen;
 
 
     //constructor method!
@@ -25,14 +25,23 @@ public class ComputerFactory {
 System.out.println("The computer is size"+size);
 System.out.println("The computer is a " +shape);
 System.out.println("The computer has design "+pattern);
-System.out.println("The computer has touchscreen" + touchscreen);
+if(touchscreen==true){
+    System.out.println("The computer has touchscreen");
+}
+else{System.out.println("The computer does not have touchscreen");
+}
+System.out.println();
 
       }
 
   }
 
-  //System.out.println("hasCowDesign"); How do I get it to have a design?
-//System.out.println("hasTieDyeDesign");
+
+//public void printInfo(){
+//System.out.println("The computer is size"+size);
+//System.out.println("The computer is a " +shape);
+//System.out.println("The computer has design "+pattern);
+//System.out.println("The computer has touchscreen" + touchscreen);
 
 
 
